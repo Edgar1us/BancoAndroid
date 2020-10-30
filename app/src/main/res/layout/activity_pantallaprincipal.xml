@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selector"
+    tools:context=".pantallaprincipal">
+
+    <ImageButton
+        android:id="@+id/ibtnPosicionGlobal"
+        android:layout_width="33dp"
+        android:layout_height="31dp"
+        android:background="@drawable/selector"
+        android:onClick="posicionGlobal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.298"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.234"
+        app:srcCompat="@drawable/global" />
+
+    <ImageButton
+        android:id="@+id/ibtnIngresos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0000538A"
+        android:onClick="irIngresos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.298"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.37"
+        app:srcCompat="@drawable/ingresos" />
+
+    <ImageButton
+        android:id="@+id/ibtnTransferencias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0000538A"
+        android:onClick="irTransferencias"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.298"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.515"
+        app:srcCompat="@drawable/trasferencias" />
+
+    <ImageButton
+        android:id="@+id/ibtnCambiarPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0000538A"
+        android:onClick="cambiarContrasena"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.704"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.234"
+        app:srcCompat="@drawable/contrasena" />
+
+    <ImageButton
+        android:id="@+id/ibtnPromociones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0000538A"
+        android:onClick="irPromociones"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.704"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.37"
+        app:srcCompat="@drawable/megafono" />
+
+    <ImageButton
+        android:id="@+id/ibtnCajeros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0000538A"
+        android:onClick="irCajeros"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.704"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.515"
+        app:srcCompat="@drawable/cajeros" />
+
+    <Button
+        android:id="@+id/btntrans1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0000538A"
+        android:onClick="irMostrarTransferencias"
+        android:text="Mostrar Transferencias"
+        android:textColor="#FFFFFF"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.701" />
+
+    <Button
+        android:id="@+id/btntrans2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0000538A"
+        android:onClick="irOrdenarTransferencias"
+        android:text="Ordenar Transferencias"
+        android:textColor="#FFFFFF"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.841" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
